@@ -127,7 +127,7 @@ text-transform: uppercase;
 }
 
 h4 {
-  color: #262626;
+  color: #4d4d4d;
   font-size: 0.7em;
 }
 
@@ -299,13 +299,6 @@ font-size: 0.7em;
   align-content: center;
 }
 
-.i {
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.6em;
-  font-weight: 100;
-  text-transform: uppercase;
-}
-
 .about .content-wrapper {
   display: flex;
   justify-content: center;
@@ -343,6 +336,7 @@ align-items: center;
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-top: 30px;
 }
 
 .classes h2 {
@@ -374,6 +368,14 @@ align-items: center;
 
 .class-images figure {
   width: 50%;
+}
+
+.class-image-two-desktop {
+  display: none;
+}
+
+.classes .previous-classes {
+  margin-top: 20px;
 }
 
 .free {
@@ -574,10 +576,6 @@ header nav ul li a {
   margin-bottom: 50px;
 }
 
-.i {
-  font-family: 'Sarabun', sans-serif;
-}
-
 .about-image {
   margin-bottom: 40px;
 }
@@ -654,11 +652,6 @@ header nav ul li a {
 
   .class-images {
     margin-bottom: 50px;
-  }
-
-  .i {
-    font-family: 'Sarabun', sans-serif;
-    font-size: 1.1em;
   }
 
   .about-image {
@@ -761,11 +754,26 @@ header nav ul li a {
   }
 
   .class-images {
-    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 80px;
   }
 
-  .i {
-    font-family: 'Sarabun', sans-serif;
+  .class-images figure {
+    padding-top: 30px;
+    width: 35%;
+  }
+
+  .class-image-two {
+    display: none;
+  }
+
+  .class-image-two-desktop {
+    display: block;
+  }
+
+  .classes .previous-classes {
+    margin-top: 50px;
   }
 
   .about-image {
